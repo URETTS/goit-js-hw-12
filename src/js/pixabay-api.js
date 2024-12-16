@@ -22,3 +22,4 @@ export function fetchImages(query, page = 1, perPage = 9) {
             throw error;
         });
 }
+
