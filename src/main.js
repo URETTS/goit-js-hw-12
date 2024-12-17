@@ -5,7 +5,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 let currentPage = 1;
 let currentQuery = '';
-const form = document.querySelector('.search-container');
+const form = document.querySelector('#search-form');
 const input = document.querySelector('#search-input');
 const gallery = document.createElement('div');
 gallery.classList.add('gallery');
